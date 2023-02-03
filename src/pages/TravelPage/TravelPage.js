@@ -15,10 +15,7 @@ import OpenSans from "../../assets/Fonts/Open_Sans/static/OpenSans/OpenSans-Regu
 import dayjs from "dayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import { TimePicker } from "@mui/x-date-pickers/TimePicker";
-import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import { DesktopDatePicker } from "@mui/x-date-pickers/DesktopDatePicker";
-import { MobileDatePicker } from "@mui/x-date-pickers/MobileDatePicker";
 
 export default function TravelPage(children) {
 	// const [passengers, setPassengers] = React.useState("");
@@ -52,6 +49,7 @@ export default function TravelPage(children) {
             font-display: swap;
             font-weight: 400;
             src: local('OpenSans'), local('OpenSans-Regular'), url(${OpenSans}) format('ttf');
+            fontsize:16px;
           }
         `,
 			},
@@ -125,7 +123,6 @@ export default function TravelPage(children) {
 
 	return (
 		<ThemeProvider theme={theme}>
-			<CssBaseline />
 			<Box
 				className="travel-form"
 				sx={{ display: "flex", flexWrap: "wrap", fontFamily: "OpenSans" }}>
