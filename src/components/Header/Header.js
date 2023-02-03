@@ -22,19 +22,31 @@ const Header = () => {
         </div>
         <div className="header__nav-container">
           <ul className="header__nav-list">
-            <Link className="header__link" to="">
+            <Link className="header__link" to="/">
               <li className="header__nav-item">Home</li>
             </Link>
-            <Link className="header__link" to="">
+            <Link
+              className="header__link"
+              to="https://www.aircanada.com/ca/en/aco/home.html"
+            >
               <li className="header__nav-item">Book</li>
             </Link>
-            <Link className="header__link" to="">
+            <Link
+              className="header__link"
+              to="https://www.aircanada.com/ca/en/aco/home/plan.html#/"
+            >
               <li className="header__nav-item">Plan</li>
             </Link>
-            <Link className="header__link" to="">
+            <Link
+              className="header__link"
+              to="https://www.aircanada.com/en-us/"
+            >
               <li className="header__nav-item">Fly</li>
             </Link>
-            <Link className="header__link" to="">
+            <Link
+              className="header__link"
+              to="https://www.aircanada.com/ca/en/aco/home/aeroplan/status/benefits.html#/"
+            >
               <li className="header__nav-item">Benefits</li>
             </Link>
           </ul>

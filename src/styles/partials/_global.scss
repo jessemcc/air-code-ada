@@ -16,7 +16,7 @@ body {
     font-family: "Open Sans";
     font-size: 1.6rem;
     margin: 0 auto;
-    background-color: #f8f8f8
+    background-color: #f8f8f8;
 }
 
 // ALL FONT-STYLES ================================================
@@ -80,4 +80,8 @@ h4 {
     @include tablet {
         @include font-styles(1.2rem, 1.8rem, 400);
     }
+}
+
+Link {
+    cursor: pointer;
 }
