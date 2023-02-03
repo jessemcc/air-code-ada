@@ -36,19 +36,19 @@ const DashboardPage = () => {
       </div>
       <div className='partners__cards'> 
         <article className='partner-card'>
-          <img className='partner-card__img' src={star}/>
+          <img className='partner-card__img' src={star} alt='starbucks logo'/>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={uber}/>
+          <img className='partner-card__img' src={uber} alt='uber logo'/>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={lcbo}/>
+          <img className='partner-card__img' src={lcbo} alt='lcbo logo'/>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={amazon}/>
+          <img className='partner-card__img' src={amazon} alt='amazon logo'/>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={bestbuy}/>
+          <img className='partner-card__img' src={bestbuy} alt='bestbuy logo'/>
         </article>
       </div>
     </article>
@@ -59,23 +59,23 @@ const DashboardPage = () => {
       </div>
       <div className='partners__cards'> 
         <article className='partner-card'>
-          <img className='partner-card__img' src={gift}/>
+          <img className='partner-card__img' src={gift} alt='gift logo'/>
           <p className='partner-card__title'> Gift Cards</p>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={home}/>
+          <img className='partner-card__img' src={home} alt='home appliance'/>
           <p className='partner-card__title'> Home &amp; Garden</p>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={kitchen}/>
+          <img className='partner-card__img' src={kitchen} alt='kitcheen appliance'/>
           <p className='partner-card__title'> Kitchen &amp; Dining</p>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={electronics}/>
+          <img className='partner-card__img' src={electronics} alt='electronic appliance'/>
           <p className='partner-card__title'> Electronics</p>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={accessories}/>
+          <img className='partner-card__img' src={accessories} alt='accesories'/>
           <p className='partner-card__title'> Fashion &amp; Accessories</p>
         </article>
       </div>
@@ -87,27 +87,27 @@ const DashboardPage = () => {
       </div>
       <div className='partners__cards'> 
         <article className='partner-card'>
-          <img className='partner-card__img' src={burberry}/>
+          <img className='partner-card__img' src={burberry} alt='burberry'/>
           <p className='partner-card__title'> Burberry My Burberry</p>
           <p className='partner-card__title-wrap'> Black Parfum</p>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={punch}/>
+          <img className='partner-card__img' src={punch} alt='punch'/>
           <p className='partner-card__title'> Reebok 3FT Punchbag</p>
           <p className='partner-card__title-wrap'>  + Gloves</p>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={blender}/>
+          <img className='partner-card__img' src={blender} alt='blender'/>
           <p className='partner-card__title'>Vitamix e310</p>
           <p className='partner-card__title-wrap'>Explorian series</p>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={diffuser}/>
+          <img className='partner-card__img' src={diffuser} alt='diffuser'/>
           <p className='partner-card__title'> Joe Malone Peony &amp; </p>
           <p className='partner-card__title-wrap'> Blush Suede Diffuser</p>
         </article>
         <article className='partner-card'>
-          <img className='partner-card__img' src={bike}/>
+          <img className='partner-card__img' src={bike} alt='bike'/>
           <p className='partner-card__title'> Echelon EX55 Smart</p>
           <p className='partner-card__title-wrap'> Connect Bike</p>
         </article>
