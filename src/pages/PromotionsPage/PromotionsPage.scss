@@ -3,43 +3,68 @@
 @use "../../styles//partials//typography" as *;
 
 .card {
-    font-family:
-  &__title {
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-  }
   @include desktop {
     max-width: 102rem;
     margin: auto;
-  }
-  &__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  &__container {
     
-    margin-bottom: 3rem;
-    border-radius: 2rem;
-    box-shadow: 1rem 1rem 1rem 1rem rgba($color: #000000, $alpha: 3%);
-  
-  
-  &:hover{
-    position: relative;
-    top: 2;
-  }
-}
 
-  
-  &__img {
-    border-radius: 20px 20px 0 0;
-  }
+    &__box {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 6rem;
+      margin-bottom: 3rem;
 
-  &__details{
-    padding: 2rem;
-  }
+      &__link {
+        color: #005078;
+        text-decoration: underline;
+      }
+    }
+    &__link__text {
+      font-size: 1.4rem;
+      margin: 0;
+    }
 
-  &__unlock{
-    color:blue ;
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    &__container {
+      margin-bottom: 3rem;
+      border-radius: 1rem;
+      box-shadow: 1rem 1rem 1rem 1rem rgba($color: black, $alpha: 1%);
+      background-color: white;
+
+      &:hover {
+        position: relative;
+        bottom: 1rem;
+      }
+    }
+
+    &__img {
+      border-radius: 1rem 1rem 0 0;
+      background-color: white;
+    }
+
+    &__details {
+      margin: 2rem;
+    }
+    &__subtitle {
+      font-weight: 700;
+      font-size: 1.6rem;
+      margin: 3rem 0rem 5rem 0;
+    }
+
+    &__unlock {
+      color: #005078;
+      font-weight: 600;
+      text-decoration: none;
+
+      &__p {
+        margin-bottom: 5rem;
+      }
+    }
   }
 }
