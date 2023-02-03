@@ -26,7 +26,7 @@ export default function TravelPage(children) {
 
 	const [departDate, setDepartValue] = React.useState(dayjs(Date.now()));
 	const [returnDate, setReturnValue] = React.useState(dayjs(Date.now()));
-  const [rangeDate,setRangeValue] = React.useState([null, null]);
+	const [rangeDate, setRangeValue] = React.useState([null, null]);
 
 	const handleDepartChange = (newValue) => {
 		setDepartValue(newValue);
@@ -38,13 +38,13 @@ export default function TravelPage(children) {
 
 	const theme = createTheme({
 		typography: {
-			fontFamily: "OpenSans, Arial",
+			fontFamily: "Open Sans, Arial",
 		},
 		components: {
 			MuiCssBaseline: {
 				styleOverrides: `
           @font-face {
-            font-family: 'OpenSans';
+            font-family: 'Open Sans';
             font-style: normal;
             font-display: swap;
             font-weight: 400;
@@ -108,7 +108,7 @@ export default function TravelPage(children) {
 			button: {
 				textTransform: "none",
 				fontSize: 16,
-				fontFamily: "OpenSans, Arial",
+				fontFamily: "Open Sans, Arial",
 			},
 		},
 	});
@@ -137,7 +137,7 @@ export default function TravelPage(children) {
 							InputProps={{
 								endAdornment: (
 									<InputAdornment position="end">
-										<SvgIcon sx={{ width: 16, height: 16 }}>
+										<SvgIcon viewBox="0 0 17 16" sx={{ width: 16, height: 16 }}>
 											<path
 												d="M14.3911 0.109954L1.39815 6.10675C-0.100889 6.80643 0.398792 9.00516 1.99783 9.00516H7.49495V14.5023C7.49495 16.1013 9.69368 16.6013 10.3934 15.102L16.3902 2.10899C16.8898 0.909319 15.5905 -0.390039 14.3911 0.109954Z"
 												fill="black"
@@ -155,7 +155,14 @@ export default function TravelPage(children) {
 							InputProps={{
 								endAdornment: (
 									<InputAdornment position="end">
-										<SvgIcon style={{ fontSize: 16, height: 16, width: 16 }}>
+										<SvgIcon
+                      viewBox= "0 0 12 16"
+											sx={{
+												height: 16,
+												width: 12,
+												fill: "none",
+												xmlns: "http://www.w3.org/2000/svg",
+											}}>
 											<path
 												d="M5.38337 15.6772C0.842812 9.09472 0 8.41915 0 6C0 2.68628 2.68628 0 6 0C9.31372 0 12 2.68628 12 6C12 8.41915 11.1572 9.09472 6.61662 15.6772C6.31865 16.1076 5.68131 16.1076 5.38337 15.6772ZM6 8.5C7.38072 8.5 8.5 7.38072 8.5 6C8.5 4.61928 7.38072 3.5 6 3.5C4.61928 3.5 3.5 4.61928 3.5 6C3.5 7.38072 4.61928 8.5 6 8.5Z"
 												fill="black"
