@@ -5,6 +5,7 @@ import TravelPage from "./pages/TravelPage/TravelPage";
 import PromotionsPage from "./pages/PromotionsPage/PromotionsPage";
 import DashboardPage from "./pages/DashboardPage/DashboardPage";
 import DashboardNav from "./components/DashboardNav/DashboardNav";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/promotions" element={<PromotionsPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
