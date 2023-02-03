@@ -9,6 +9,8 @@ const DashboardNav = () => {
         <h1 className="nav__hello">
           Hello, Rachel <img className="nav__wave" src={wave} />
         </h1>
+
+        <input className="nav__hello-container-input" placeholder="Search..." /> 
       </div>
       <nav className="nav__container">
         <ul className="nav__list">
