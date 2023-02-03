@@ -1,0 +1,71 @@
+.shop-container {
+  display: flex;
+  flex-direction: column;
+  width: 102rem;
+  margin: auto;
+ 
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+
+  &__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+
+    &-title {
+      font-weight: 700;
+      font-size: 3.2rem;
+      line-height: 4.4rem;
+    }
+
+    &-link {
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+      color: #005078;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 2.5rem 3.4rem;
+  }
+}
+
+.partner-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &__img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: black;
+    margin-bottom: 0;
+
+    &-wrap {
+      font-weight: 700;
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+      color: black;
+      margin: 0;
+    }
+  }
+}

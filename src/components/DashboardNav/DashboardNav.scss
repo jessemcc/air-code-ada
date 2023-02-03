@@ -1,0 +1,57 @@
+@use '../../styles/partials/mixins' as *;
+
+.nav {
+  max-width: 102rem;
+  margin: 4rem auto;
+  border-bottom: 1px solid #c9c9c9;
+
+  &__hello-container {
+    height: 14rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &-input {
+      height: 5rem;
+      width: 40rem;
+      border-radius: 20px;
+      padding: 5px 15px;
+      outline: none;
+      border: 1px solid #c9c9c9;
+      cursor: pointer;
+
+      &::placeholder {
+        color: black;
+      }
+    }
+  }
+
+  &__hello {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
+
+  &__wave {
+    height: 4rem;
+  }
+
+  &__list {
+    @include flex(row, space-between, flex-end, nowrap);
+    width: 50%;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 1rem;
+  }
+
+  &__link:focus {
+    color: #005078;
+    border-bottom: 1px solid #005078;
+  }
+}

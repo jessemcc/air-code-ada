@@ -1,0 +1,70 @@
+@use "../../styles//partials//variables" as *;
+@use "../../styles//partials//mixins" as *;
+@use "../../styles//partials//typography" as *;
+
+.card {
+  @include desktop {
+    max-width: 102rem;
+    margin: auto;
+    
+
+    &__box {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 6rem;
+      margin-bottom: 3rem;
+
+      &__link {
+        color: #005078;
+        text-decoration: underline;
+      }
+    }
+    &__link__text {
+      font-size: 1.4rem;
+      margin: 0;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    &__container {
+      margin-bottom: 3rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px rgba($color: black, $alpha: 10%);
+      background-color: white;
+
+      &:hover {
+        position: relative;
+        bottom: 1rem;
+      }
+    }
+
+    &__img {
+      border-radius: 1rem 1rem 0 0;
+      background-color: white;
+    }
+
+    &__details {
+      margin: 2rem;
+    }
+    &__subtitle {
+      font-weight: 700;
+      font-size: 1.6rem;
+      margin: 3rem 0rem 5rem 0;
+    }
+
+    &__unlock {
+      color: #005078;
+      font-weight: 600;
+      text-decoration: none;
+
+      &__p {
+        margin-bottom: 5rem;
+      }
+    }
+  }
+}
