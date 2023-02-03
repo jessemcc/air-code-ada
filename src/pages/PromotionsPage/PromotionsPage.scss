@@ -7,25 +7,38 @@
     max-width: 102rem;
     margin: auto;
 
-    &__title {
+    &__box {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
       margin-top: 6rem;
       margin-bottom: 3rem;
+
+      &__link {
+        color: #005078;
+        text-decoration: underline;
+      }
+    }
+    &__link__text {
+      font-size: 1.4rem;
+      margin: 0;
     }
 
     &__wrapper {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      align-items: flex-end;
     }
     &__container {
       margin-bottom: 3rem;
       border-radius: 1rem;
-      box-shadow: 1rem 1rem 1rem 1rem rgba($color: black, $alpha:1%);
+      box-shadow: 1rem 1rem 1rem 1rem rgba($color: black, $alpha: 1%);
       background-color: white;
 
       &:hover {
         position: relative;
-        bottom: 2rem;
+        bottom: 1rem;
       }
     }
 
@@ -40,16 +53,17 @@
     &__subtitle {
       font-weight: 700;
       font-size: 1.6rem;
-      margin: 3rem 0rem 3rem 0;
+      margin: 3rem 0rem 5rem 0;
     }
 
-    a {
-      text-decoration: none;
-    }
     &__unlock {
       color: #005078;
       font-weight: 600;
-      margin-bottom: 4rem;
+      text-decoration: none;
+
+      &__p {
+        margin-bottom: 5rem;
+      }
     }
   }
 }
