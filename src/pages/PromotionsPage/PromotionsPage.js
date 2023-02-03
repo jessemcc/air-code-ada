@@ -16,7 +16,7 @@ const PromotionsPage = () => {
     },
     {
       id: 2,
-      subtitle: "Convert Aeroplan points to Starbucks Stars",
+      subtitle: "Convert points to Starbucks Stars",
       image: starbucks2,
     },
     {

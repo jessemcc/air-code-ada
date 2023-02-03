@@ -6,50 +6,50 @@
   @include desktop {
     max-width: 102rem;
     margin: auto;
-  }
-  &__title {
-    margin-top: 6rem;
-    margin-bottom: 3rem;
-  }
 
-  &__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  &__container {
-    margin-bottom: 3rem;
-    border-radius: 2rem;
-    box-shadow: 1rem 1rem 1rem 1rem rgba($color: #000000, $alpha: 3%);
-    background-color: white;
-
-    &:hover {
-      position: relative;
-      bottom: 2rem;
+    &__title {
+      margin-top: 6rem;
+      margin-bottom: 3rem;
     }
-  }
 
-  &__img {
-    border-radius: 20px 20px 0 0;
-    background-color: white;
-  }
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    &__container {
+      margin-bottom: 3rem;
+      border-radius: 1rem;
+      box-shadow: 1rem 1rem 1rem 1rem rgba($color: #000000, $alpha: 5%);
+      background-color: white;
 
-  &__details {
-    padding: 2rem;
-  }
-  &__subtitle {
-    font-weight: 700;
-    font-size: 1.6rem;
-    width: 20rem;
-    margin-bottom: 2rem;
-  }
+      &:hover {
+        position: relative;
+        bottom: 2rem;
+      }
+    }
 
-  a{
-    text-decoration: none;
-  }
-  &__unlock {
-    color: #005078;
-    font-weight: 600;
-    
+    &__img {
+      border-radius: 1rem 1rem 0 0;
+      background-color: white;
+    }
+
+    &__details {
+      margin: 2rem;
+    }
+    &__subtitle {
+      font-weight: 700;
+      font-size: 1.6rem;
+      margin: 3rem 0rem 3rem 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    &__unlock {
+      color: #005078;
+      font-weight: 600;
+      margin-bottom: 4rem;
+    }
   }
 }
