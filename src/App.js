@@ -5,10 +5,11 @@ import TravelPage from "./pages/TravelPage/TravelPage";
 import PromotionsPage from "./pages/PromotionsPage/PromotionsPage";
 import DashboardPage from "./pages/DashboardPage/DashboardPage";
 import Footer from "./components/Footer/Footer";
-
+import Header from "./components/Header/Header";
 const App = () => {
   return (
     <Router>
+      <Header/>
       <Routes>
         <Route path="/" element={<ProfilePage />} />
         <Route path="/travel" element={<TravelPage />} />
