@@ -1,3 +1,39 @@
+@use "../../styles/partials/mixins" as *;
+
 .header {
     background-color: black;
+
+    &__container {
+        @include flex(row, space-between, center, nowrap);
+        max-width: 102rem;
+        margin: 0 auto;
+    }
+
+    &__nav-container {
+        @include flex(row, space-between, center, nowrap);
+    }
+
+    &__nav-list {
+        @include flex(row, space-between, center, nowrap);
+        list-style-type: none;
+        width: 50rem;
+        padding-right: 4rem;
+        border-right: 1px solid #4a4f55;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+    }
+
+    &__profile {
+        @include flex(row, space-between, center, nowrap);
+        width: 17rem;
+        margin-left: 4rem;
+    }
+
+    &__name {
+        margin: 0;
+        color: white;
+    }
 }
