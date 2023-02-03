@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import bestbuy from "../../assets/Images/offers-bestbuy.png";
 import lcbo1 from "../../assets/Images/offers-lcbo-03.png";
 import lcbo2 from "../../assets/Images/offers-lcbo-06.png";
@@ -45,8 +46,8 @@ const PromotionsPage = () => {
       <div className="card__container" key={element.id}>
         <img className="card__img" src={element.image} alt='cards'></img>
         <div className="card__details">
-          <h3 className="card__subtitle">{element.subtitle}</h3>
-          <p className="card__unlock">Unlock offer</p>
+          <h4 className="card__subtitle">{element.subtitle}</h4>
+          <Link to='#'><p className="card__unlock">Unlock offer</p></Link>
         </div>
       </div>
     );
