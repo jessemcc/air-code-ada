@@ -1,0 +1,45 @@
+@use "../../styles//partials//variables" as *;
+@use "../../styles//partials//mixins" as *;
+@use "../../styles//partials//typography" as *;
+
+.travel-form {
+	background: #ffffff;
+
+	/* Aeroplan Dropshadow */
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+	padding: 80px;
+	&__heading {
+		width: 100%;
+        padding-bottom: 46px;
+	}
+
+	&__destinations {
+		display: flex;
+		flex-flow: row nowrap;
+		flex-basis: 100%;
+        margin: 0;
+	}
+
+	&__dates {
+		display: flex;
+		flex-flow: row nowrap;
+		flex-basis: 100%;
+	}
+
+	&__CTA {
+		padding-top: 40px;
+	}
+
+     .MuiOutlinedInput-root{
+        border-radius: 0;
+        font-size: 16px;
+     }
+
+     .MuiInputLabel-root{
+        font-size: 16px;
+        font-family: "Open Sans";
+     }
+
+     
+}
