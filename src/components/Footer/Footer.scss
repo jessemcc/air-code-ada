@@ -1,0 +1,8 @@
+@use "../../styles//partials//variables" as *;
+@use "../../styles//partials//mixins" as *;
+.footer {
+  @include desktop {
+    max-width: 100%;
+    margin-top: 6rem;
+  }
+}
